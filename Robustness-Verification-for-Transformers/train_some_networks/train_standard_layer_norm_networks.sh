@@ -3,8 +3,6 @@
 # Table 7: Fast vs BaF (Standard Layer Normalization)
 
 # Activate conda
-. "$HOME/miniconda3/etc/profile.d/conda.sh"
-VIRTUAL_ENV_DISABLE_PROMPT=true conda activate py37_transformers_verifier
 
 CURRENT_DIR=$(realpath "$(dirname "$0")")
 

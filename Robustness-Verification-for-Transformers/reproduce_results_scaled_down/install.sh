@@ -12,8 +12,6 @@ echo "Step 2: activate conda and install the environment with the name 'py37_tra
 # shellcheck disable=SC1090
 
 . "$HOME/miniconda3/etc/profile.d/conda.sh"
-conda create -n py37_transformers_verifier python=3.7 -y
-VIRTUAL_ENV_DISABLE_PROMPT=true conda activate py37_transformers_verifier
 
 conda config --add channels pytorch
 conda config --add channels conda-forge

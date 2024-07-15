@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 
 # Activate conda
-. "$HOME/miniconda3/etc/profile.d/conda.sh"
-VIRTUAL_ENV_DISABLE_PROMPT=true conda activate py37_transformers_verifier
 
 
 # Table 3: Fast vs Backward vs BaF - L1 and L2 - small network, due to memory issues with Backward)

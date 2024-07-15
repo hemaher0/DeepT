@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 
 # Activate conda
-. "$HOME/miniconda3/etc/profile.d/conda.sh"
-VIRTUAL_ENV_DISABLE_PROMPT=true conda activate py37_transformers_verifier
 
 
 # Table 2: Fast vs Precise vs Backward - Linf - small network, due to memory issues with Backward)
