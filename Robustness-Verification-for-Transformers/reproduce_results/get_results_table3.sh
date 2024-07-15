@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 
 
-# Activate conda
-. "$HOME/miniconda3/etc/profile.d/conda.sh"
-VIRTUAL_ENV_DISABLE_PROMPT=true conda activate py37_transformers_verifier
+
 
 # Table 3: Fast vs BaF (Big)
 # --results-directory "results/normal_case"

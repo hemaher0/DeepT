@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 
-# Activate conda
-. "$HOME/miniconda3/etc/profile.d/conda.sh"
-VIRTUAL_ENV_DISABLE_PROMPT=true conda activate py37_transformers_verifier
+
 
 
 # Table 6: effect of the ordering of the norms in the fast version of the dot product transformer

@@ -187,14 +187,14 @@ def update_arguments(args):
     if args.method == 'backward-convex':
         args.discard_final_dp = True
 
-    if not args.train:
-        args.batch_size *= 30
+    # if not args.train:
+    #     args.batch_size *= 30
 
     if args.cpu_range != "Default":
         start, end = args.cpu_range.strip().split("-")
         args.num_processes = int(end) - int(start) + 1
 
-    if args.cpu:
+    if args.cpu and args.gpu != -1:
         args.device = "cpu"
         os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
     else:
